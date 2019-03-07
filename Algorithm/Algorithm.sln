@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "소수구하기", "소수�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "두 번째 최소값 찾기", "두 번째 최소값 찾기\두 번째 최소값 찾기.vcxproj", "{CA8D27B0-FF0E-4603-A9C8-BF6C66726AF4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OX문제", "OX문제\OX문제.vcxproj", "{E0B35EEF-7445-4E33-8BCD-6EE39E837567}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number 9 - MaxValue", "Number 9 - MaxValue\Number 9 - MaxValue.vcxproj", "{FCC5DBC5-48DA-49D4-AF2A-30C0FA3C90DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +25,14 @@ Global
 		{CA8D27B0-FF0E-4603-A9C8-BF6C66726AF4}.Debug|Win32.Build.0 = Debug|Win32
 		{CA8D27B0-FF0E-4603-A9C8-BF6C66726AF4}.Release|Win32.ActiveCfg = Release|Win32
 		{CA8D27B0-FF0E-4603-A9C8-BF6C66726AF4}.Release|Win32.Build.0 = Release|Win32
+		{E0B35EEF-7445-4E33-8BCD-6EE39E837567}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0B35EEF-7445-4E33-8BCD-6EE39E837567}.Debug|Win32.Build.0 = Debug|Win32
+		{E0B35EEF-7445-4E33-8BCD-6EE39E837567}.Release|Win32.ActiveCfg = Release|Win32
+		{E0B35EEF-7445-4E33-8BCD-6EE39E837567}.Release|Win32.Build.0 = Release|Win32
+		{FCC5DBC5-48DA-49D4-AF2A-30C0FA3C90DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCC5DBC5-48DA-49D4-AF2A-30C0FA3C90DC}.Debug|Win32.Build.0 = Debug|Win32
+		{FCC5DBC5-48DA-49D4-AF2A-30C0FA3C90DC}.Release|Win32.ActiveCfg = Release|Win32
+		{FCC5DBC5-48DA-49D4-AF2A-30C0FA3C90DC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
