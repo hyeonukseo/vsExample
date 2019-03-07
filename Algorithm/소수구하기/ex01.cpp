@@ -19,6 +19,5 @@ int main() {
 			c = 2;
 	}
 
-	printf("hello world");
 	return 0;
 }
