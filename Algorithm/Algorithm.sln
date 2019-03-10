@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "숫자 피라미드", "숫�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array3", "Array3\Array3.vcxproj", "{014DE795-9B81-4EEF-BCA6-7A963A505464}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "car", "car\car.vcxproj", "{5306C03E-151A-42B6-80FB-0E4AC26665D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{014DE795-9B81-4EEF-BCA6-7A963A505464}.Debug|Win32.Build.0 = Debug|Win32
 		{014DE795-9B81-4EEF-BCA6-7A963A505464}.Release|Win32.ActiveCfg = Release|Win32
 		{014DE795-9B81-4EEF-BCA6-7A963A505464}.Release|Win32.Build.0 = Release|Win32
+		{5306C03E-151A-42B6-80FB-0E4AC26665D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5306C03E-151A-42B6-80FB-0E4AC26665D6}.Debug|Win32.Build.0 = Debug|Win32
+		{5306C03E-151A-42B6-80FB-0E4AC26665D6}.Release|Win32.ActiveCfg = Release|Win32
+		{5306C03E-151A-42B6-80FB-0E4AC26665D6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
