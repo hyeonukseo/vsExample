@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "행렬 뒤집기 -1", "행�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "행렬 뒤집기 -2", "행렬 뒤집기 - 2\행렬 뒤집기 - 2.vcxproj", "{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rook", "rook\rook.vcxproj", "{E339B0A6-5A71-4553-93AD-360B9EF066BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -105,6 +107,10 @@ Global
 		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Debug|Win32.Build.0 = Debug|Win32
 		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Release|Win32.ActiveCfg = Release|Win32
 		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Release|Win32.Build.0 = Release|Win32
+		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Debug|Win32.Build.0 = Debug|Win32
+		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Release|Win32.ActiveCfg = Release|Win32
+		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
