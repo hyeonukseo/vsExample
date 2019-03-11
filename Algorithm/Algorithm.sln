@@ -29,6 +29,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "상자색칠", "상자색�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "최대공약수와 최소공배수", "최대공약수와 최소공배수\최대공약수와 최소공배수.vcxproj", "{89A7F29F-1FB1-4026-BB19-1318FC3CCE46}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eightnine", "eightnine\eightnine.vcxproj", "{02F9146A-9D3D-432D-B421-A55FD4B0EC2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "행렬 뒤집기 -1", "행렬 뒤집기 -1\행렬 뒤집기 -1.vcxproj", "{465451EF-EDEE-4A46-B8F6-DC2CC86F84C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "행렬 뒤집기 -2", "행렬 뒤집기 - 2\행렬 뒤집기 - 2.vcxproj", "{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,6 +93,18 @@ Global
 		{89A7F29F-1FB1-4026-BB19-1318FC3CCE46}.Debug|Win32.Build.0 = Debug|Win32
 		{89A7F29F-1FB1-4026-BB19-1318FC3CCE46}.Release|Win32.ActiveCfg = Release|Win32
 		{89A7F29F-1FB1-4026-BB19-1318FC3CCE46}.Release|Win32.Build.0 = Release|Win32
+		{02F9146A-9D3D-432D-B421-A55FD4B0EC2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02F9146A-9D3D-432D-B421-A55FD4B0EC2B}.Debug|Win32.Build.0 = Debug|Win32
+		{02F9146A-9D3D-432D-B421-A55FD4B0EC2B}.Release|Win32.ActiveCfg = Release|Win32
+		{02F9146A-9D3D-432D-B421-A55FD4B0EC2B}.Release|Win32.Build.0 = Release|Win32
+		{465451EF-EDEE-4A46-B8F6-DC2CC86F84C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465451EF-EDEE-4A46-B8F6-DC2CC86F84C6}.Debug|Win32.Build.0 = Debug|Win32
+		{465451EF-EDEE-4A46-B8F6-DC2CC86F84C6}.Release|Win32.ActiveCfg = Release|Win32
+		{465451EF-EDEE-4A46-B8F6-DC2CC86F84C6}.Release|Win32.Build.0 = Release|Win32
+		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Debug|Win32.Build.0 = Debug|Win32
+		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Release|Win32.ActiveCfg = Release|Win32
+		{9568D9FF-D8F6-410E-9C99-0D60F8C325FB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
