@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "행렬 뒤집기 -2", "행�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rook", "rook\rook.vcxproj", "{E339B0A6-5A71-4553-93AD-360B9EF066BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "attackrange", "attackrange\attackrange.vcxproj", "{3BC1F64E-568A-4B8E-9BD7-74DF26313AF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "offset", "offset\offset.vcxproj", "{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -111,6 +115,14 @@ Global
 		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Debug|Win32.Build.0 = Debug|Win32
 		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Release|Win32.ActiveCfg = Release|Win32
 		{E339B0A6-5A71-4553-93AD-360B9EF066BA}.Release|Win32.Build.0 = Release|Win32
+		{3BC1F64E-568A-4B8E-9BD7-74DF26313AF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BC1F64E-568A-4B8E-9BD7-74DF26313AF1}.Debug|Win32.Build.0 = Debug|Win32
+		{3BC1F64E-568A-4B8E-9BD7-74DF26313AF1}.Release|Win32.ActiveCfg = Release|Win32
+		{3BC1F64E-568A-4B8E-9BD7-74DF26313AF1}.Release|Win32.Build.0 = Release|Win32
+		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Debug|Win32.Build.0 = Debug|Win32
+		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Release|Win32.ActiveCfg = Release|Win32
+		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
