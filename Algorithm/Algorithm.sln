@@ -41,6 +41,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "attackrange", "attackrange\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "offset", "offset\offset.vcxproj", "{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "colorpaper", "colorpaper\colorpaper.vcxproj", "{3D55710D-4347-4A16-B814-9716F93DCCA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mine", "mine\mine.vcxproj", "{A5B78873-83DB-45E0-9491-AC42080B843E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -123,6 +127,14 @@ Global
 		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Debug|Win32.Build.0 = Debug|Win32
 		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Release|Win32.ActiveCfg = Release|Win32
 		{23C8C8E3-7932-4338-8EE8-4BF69D05C6D4}.Release|Win32.Build.0 = Release|Win32
+		{3D55710D-4347-4A16-B814-9716F93DCCA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D55710D-4347-4A16-B814-9716F93DCCA2}.Debug|Win32.Build.0 = Debug|Win32
+		{3D55710D-4347-4A16-B814-9716F93DCCA2}.Release|Win32.ActiveCfg = Release|Win32
+		{3D55710D-4347-4A16-B814-9716F93DCCA2}.Release|Win32.Build.0 = Release|Win32
+		{A5B78873-83DB-45E0-9491-AC42080B843E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5B78873-83DB-45E0-9491-AC42080B843E}.Debug|Win32.Build.0 = Debug|Win32
+		{A5B78873-83DB-45E0-9491-AC42080B843E}.Release|Win32.ActiveCfg = Release|Win32
+		{A5B78873-83DB-45E0-9491-AC42080B843E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
