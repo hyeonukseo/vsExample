@@ -69,15 +69,14 @@ int main() {
 					if (bingo_count == 3)
 					{
 						printf("%d\n", count);
-						printf("%d", bingo_count);
-						break;
+						return 0;
 					}
 				}
 				else
 				{
 					sum_row = 0;
 				}
-					
+
 
 				if (sum_col == 0)
 				{
@@ -85,8 +84,7 @@ int main() {
 					if (bingo_count == 3)
 					{
 						printf("%d\n", count);
-						printf("%d", bingo_count);
-						break;
+						return 0;
 					}
 				}
 				else
@@ -105,8 +103,7 @@ int main() {
 				if (bingo_count == 3)
 				{
 					printf("%d\n", count);
-					printf("%d", bingo_count);
-					break;
+					return 0;
 				}
 			}
 
@@ -118,15 +115,14 @@ int main() {
 				if (bingo_count == 3)
 				{
 					printf("%d\n", count);
-					printf("%d", bingo_count);
-					break;
+					return 0;
 				}
 			}
 
 			sum_dig = 0;
 			sum_rdig = 0;
 
-			
+
 
 		}
 	}
