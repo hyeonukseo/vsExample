@@ -53,6 +53,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bingo", "bingo\bingo.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tetris", "tetris\tetris.vcxproj", "{14372A24-1074-4159-910D-5B8B4713FBA7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "seat", "seat\seat.vcxproj", "{2A1BA1BE-BE89-4622-986B-0487EE3D4D92}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baseball_game", "baseball_game\baseball_game.vcxproj", "{8D189CD5-8321-448F-A6ED-8CC56EFB1DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -159,6 +163,14 @@ Global
 		{14372A24-1074-4159-910D-5B8B4713FBA7}.Debug|Win32.Build.0 = Debug|Win32
 		{14372A24-1074-4159-910D-5B8B4713FBA7}.Release|Win32.ActiveCfg = Release|Win32
 		{14372A24-1074-4159-910D-5B8B4713FBA7}.Release|Win32.Build.0 = Release|Win32
+		{2A1BA1BE-BE89-4622-986B-0487EE3D4D92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A1BA1BE-BE89-4622-986B-0487EE3D4D92}.Debug|Win32.Build.0 = Debug|Win32
+		{2A1BA1BE-BE89-4622-986B-0487EE3D4D92}.Release|Win32.ActiveCfg = Release|Win32
+		{2A1BA1BE-BE89-4622-986B-0487EE3D4D92}.Release|Win32.Build.0 = Release|Win32
+		{8D189CD5-8321-448F-A6ED-8CC56EFB1DED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D189CD5-8321-448F-A6ED-8CC56EFB1DED}.Debug|Win32.Build.0 = Debug|Win32
+		{8D189CD5-8321-448F-A6ED-8CC56EFB1DED}.Release|Win32.ActiveCfg = Release|Win32
+		{8D189CD5-8321-448F-A6ED-8CC56EFB1DED}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
