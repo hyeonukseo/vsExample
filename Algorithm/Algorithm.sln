@@ -81,6 +81,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lcm", "lcm\lcm.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streetree", "streetree\streetree.vcxproj", "{16EAA052-C235-4516-90D8-3CC75631A5FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fractionsum", "fractionsum\fractionsum.vcxproj", "{84153577-28C7-4B4F-9C45-44327DE7A167}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "findprime", "findprime\findprime.vcxproj", "{8AEBB864-538C-4FB3-9EA8-4CD7A1497033}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -243,6 +247,14 @@ Global
 		{16EAA052-C235-4516-90D8-3CC75631A5FF}.Debug|Win32.Build.0 = Debug|Win32
 		{16EAA052-C235-4516-90D8-3CC75631A5FF}.Release|Win32.ActiveCfg = Release|Win32
 		{16EAA052-C235-4516-90D8-3CC75631A5FF}.Release|Win32.Build.0 = Release|Win32
+		{84153577-28C7-4B4F-9C45-44327DE7A167}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84153577-28C7-4B4F-9C45-44327DE7A167}.Debug|Win32.Build.0 = Debug|Win32
+		{84153577-28C7-4B4F-9C45-44327DE7A167}.Release|Win32.ActiveCfg = Release|Win32
+		{84153577-28C7-4B4F-9C45-44327DE7A167}.Release|Win32.Build.0 = Release|Win32
+		{8AEBB864-538C-4FB3-9EA8-4CD7A1497033}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AEBB864-538C-4FB3-9EA8-4CD7A1497033}.Debug|Win32.Build.0 = Debug|Win32
+		{8AEBB864-538C-4FB3-9EA8-4CD7A1497033}.Release|Win32.ActiveCfg = Release|Win32
+		{8AEBB864-538C-4FB3-9EA8-4CD7A1497033}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
