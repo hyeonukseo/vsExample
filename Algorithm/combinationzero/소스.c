@@ -1,26 +1,76 @@
 #include <stdio.h>
 
-int main() {
+int check(int dividend, int divisor)
+{
+	int i, temp = 0;
+	int check2 = 0, check5 = 0;
 
-	//Please Enter Your Code Here
-	int i, j;
-	int n, m;
-	int count = 0;
-	int sum = 1;
-
-	scanf("%d %d", &n, &m);
-
-	for (i = n; i >= 1; i--)
+	for (i = dividend; i>dividend - divisor; i--)
 	{
-		for (j = m; j >= 1; j--)
+		temp = i;
+		for (;;)
 		{
-			sum = sum * (n * (1 / m)*(1 / (n - m)));
-			if ((int)sum % 10 == 0)
-				count++;
+			if (temp % 5 == 0)
+			{
+				check5++;
+				temp /= 5;
+			}
+			
+			else if (temp % 2 == 0)
+			{
+				check2++;
+				temp /= 2;
+			}
+			else
+				break;
+
 		}
 	}
 
-	printf("%d", count);
+	for (i = divisor; i >= 1; i--)
+	{
+		temp = i;
+		for (;;)
+		{
+			if (temp % 5 == 0)
+			{
+				check5--;
+				temp /= 5;
+			}
+
+			else if (temp % 2 == 0)
+			{
+				check2--;
+				temp /= 2;
+			}
+
+			else
+				break;
+
+		}
+	}
+
+	if (check2 >= 1 && check5 >= 1)
+	{
+		if (check2 > check5)
+			return check5;
+		else
+		{
+			return check2;
+		}
+	}
+	else
+		return 0;
+
+
+}
+
+int main() {
+
+	int n, m;
+
+	scanf("%d %d", &n, &m);
+	printf("%d", check(n, m));
 
 	return 0;
 }
