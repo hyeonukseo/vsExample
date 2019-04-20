@@ -4,79 +4,72 @@
 int main() {
 
 	//Please Enter Your Code Here
-	int i, j, n, max, cp;
-	int flag = 0;
-	int ai=0, aj=0;
-	int size = 0;
-	char a[100], b[100];
-	char rev_a[100], rev_b[100];
-	char temp[1000];
-
-	for (i = 0; i < 1000; i++)
-		temp[i] = '0';
+	int i, j;
+	int len;
+	char a[1000], b[1000];
+	char rev_a[1000], rev_b[1000];
+	char temp;
+	char result[1000];
 
 
 	scanf("%s", a);
 	scanf("%s", b);
 
-	j = 0;
-	if (strlen(a) > strlen(b))
-		max = strlen(a);
-	else
-		max = strlen(b);
-
-
-
-	for (i = max - 1; i >= 0; i--)
+	for (j = 0, i = strlen(a) - 1; i >= 0; j++, i--)
 	{
-		if (a[i] != '\0') {
-			rev_a[ai] = a[i];
-			ai++;
-		}
-
-		if (b[i] != '\0') {
-			rev_b[aj] = b[i];
-			aj++;
-		}
-		
+		rev_a[j] = a[i];
 	}
+	rev_a[j] = '\0';
 
-	if (ai > aj)
+	for (j = 0, i = strlen(b) - 1; i >= 0; j++, i--)
 	{
-		for (i = aj; i < ai; i++)
+		rev_b[j] = b[i];
+	}
+	rev_b[j] = '\0';
+
+
+	if (strlen(rev_a) >= strlen(rev_b))
+	{
+		for (i = strlen(b); i < strlen(a); i++)
+		{
 			rev_b[i] = '0';
+		}
+		rev_b[i] = '\0';
+		len = strlen(rev_a);
 	}
-	else
+	else 
 	{
-		for (i = ai; i < aj; i++)
+		for (i = strlen(a); i < strlen(b); i++)
+		{
 			rev_a[i] = '0';
+		}
+		rev_a[i] = '\0';
+		len = strlen(b);
 	}
 
-	rev_a[i] = rev_b[i] = '\0';
 
-	for (i = 0; i < max; i++)
+	for (i = 0; i<len  ; i++)
 	{
-		cp = temp[i] - '0' + rev_a[i] - '0' + rev_b[i] - '0';
-		if (cp > 9)
+		result[i] = rev_a[i] + rev_b[i] - '0';
+		if (result[i] > '9')
 		{
-			cp = cp - 10;
-			temp[i] = '0' + cp;
-			temp[i + 1] = '1';
-		}
-		else
-		{
-			temp[i] = '0' + cp;
+			result[i] = result[i] - 10;
+			
+			if (rev_a[i + 1] != '\0')
+				rev_a[i + 1]++;
+			else
+			{
+				result[i + 1] = '1';
+				result[i + 2] = '\0';
+				break;
+			}
 		}
 	}
-	temp[i+1] = '\0';
 
-	size = strlen(temp);
-	if (temp[size - 1] == '0')
-		size--;
 
-	for (i = size -1; i >= 0; i--)
-		printf("%c", temp[i]);
-	printf("\n");
+
+	for (i = strlen(result) - 1; i >= 0; i--)
+		printf("%c", result[i]);
 
 	return 0;
 }

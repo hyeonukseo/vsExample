@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-recursive", "binary-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\MergeSort.vcxproj", "{E326B06C-767A-43CC-86A3-BBEC9343770E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "문자열 압축", "문자열 압축\문자열 압축.vcxproj", "{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -309,6 +311,10 @@ Global
 		{E326B06C-767A-43CC-86A3-BBEC9343770E}.Debug|Win32.Build.0 = Debug|Win32
 		{E326B06C-767A-43CC-86A3-BBEC9343770E}.Release|Win32.ActiveCfg = Release|Win32
 		{E326B06C-767A-43CC-86A3-BBEC9343770E}.Release|Win32.Build.0 = Release|Win32
+		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Debug|Win32.Build.0 = Debug|Win32
+		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Release|Win32.ActiveCfg = Release|Win32
+		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
