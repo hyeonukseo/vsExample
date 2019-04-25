@@ -105,6 +105,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\Merg
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "문자열 압축", "문자열 압축\문자열 압축.vcxproj", "{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "큰자리수곱셈", "큰자리수곱셈\큰자리수곱셈.vcxproj", "{71304324-FAF9-4429-ACAC-3B9467BDC9E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pfactorization", "pfactorization\pfactorization.vcxproj", "{EA2AACF2-4013-4508-89C2-891463DCDD0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chebyshevtheo", "chebyshevtheo\chebyshevtheo.vcxproj", "{A7B398C5-3D3F-4AE8-AA0A-F894BCF5A2C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "계산기", "계산기\계산기.vcxproj", "{C77278FF-1B93-46FA-BB5F-8D60AAFBA2CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -315,6 +323,22 @@ Global
 		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Debug|Win32.Build.0 = Debug|Win32
 		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Release|Win32.ActiveCfg = Release|Win32
 		{C89971ED-C1C8-4273-908F-F45FF9B8BD4E}.Release|Win32.Build.0 = Release|Win32
+		{71304324-FAF9-4429-ACAC-3B9467BDC9E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71304324-FAF9-4429-ACAC-3B9467BDC9E6}.Debug|Win32.Build.0 = Debug|Win32
+		{71304324-FAF9-4429-ACAC-3B9467BDC9E6}.Release|Win32.ActiveCfg = Release|Win32
+		{71304324-FAF9-4429-ACAC-3B9467BDC9E6}.Release|Win32.Build.0 = Release|Win32
+		{EA2AACF2-4013-4508-89C2-891463DCDD0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA2AACF2-4013-4508-89C2-891463DCDD0B}.Debug|Win32.Build.0 = Debug|Win32
+		{EA2AACF2-4013-4508-89C2-891463DCDD0B}.Release|Win32.ActiveCfg = Release|Win32
+		{EA2AACF2-4013-4508-89C2-891463DCDD0B}.Release|Win32.Build.0 = Release|Win32
+		{A7B398C5-3D3F-4AE8-AA0A-F894BCF5A2C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7B398C5-3D3F-4AE8-AA0A-F894BCF5A2C5}.Debug|Win32.Build.0 = Debug|Win32
+		{A7B398C5-3D3F-4AE8-AA0A-F894BCF5A2C5}.Release|Win32.ActiveCfg = Release|Win32
+		{A7B398C5-3D3F-4AE8-AA0A-F894BCF5A2C5}.Release|Win32.Build.0 = Release|Win32
+		{C77278FF-1B93-46FA-BB5F-8D60AAFBA2CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C77278FF-1B93-46FA-BB5F-8D60AAFBA2CD}.Debug|Win32.Build.0 = Debug|Win32
+		{C77278FF-1B93-46FA-BB5F-8D60AAFBA2CD}.Release|Win32.ActiveCfg = Release|Win32
+		{C77278FF-1B93-46FA-BB5F-8D60AAFBA2CD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
