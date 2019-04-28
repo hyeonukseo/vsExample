@@ -3,7 +3,6 @@
 int n, r;
 char result[31];
 
-
 void getResult(int x, int count)
 {
 	if (x == n){
@@ -13,11 +12,15 @@ void getResult(int x, int count)
 	else {
 		for (int i = 1; i >= 0; i--)
 		{
+			if (count > r)
+			{
+				return;
+			}
+
 			char a = i + '0';
 			result[x] = a;
-			if (count > r)
-				return;
-			getResult(x + 1, count+i);
+			
+			getResult(x + 1, count + i);
 			result[x] = 0;
 		}
 	}
